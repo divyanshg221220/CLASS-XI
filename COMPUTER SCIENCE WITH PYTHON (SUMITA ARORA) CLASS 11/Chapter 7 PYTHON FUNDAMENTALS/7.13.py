@@ -1,0 +1,10 @@
+#7.13
+n=input("Enter name of a student:")
+c=int(input("Enter class of a student:"))
+a=int(input("Enter age of a student:"))
+print(n,c,a)
+print()
+print()
+print(n)
+print(c)
+print(a)
