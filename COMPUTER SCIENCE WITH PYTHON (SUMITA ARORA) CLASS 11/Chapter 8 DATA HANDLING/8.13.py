@@ -10,10 +10,10 @@ for i in range(6):
     print(r)
     s+=r
     l.append(r)
-print("mean:",s/6)
+print("Mean:",s/6)
 l=sorted(l)
 mid=len(l)//2
-print("median:",(l[mid-1]+l[mid])/2)
+print("Median:",(l[mid-1]+l[mid])/2)
 max_count=0
 mode=0
 for i in l:
@@ -23,4 +23,4 @@ for i in l:
         mode=i
     elif count==max_count:
         mode=i
-print("mode:",mode)
+print("Mode:",mode)
