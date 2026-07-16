@@ -1,0 +1,26 @@
+#8.13
+import random
+start=int(input("Enter start number:"))
+stop=int(input("Enter stop number:"))
+step=int(input("Enter step number:"))
+s=0
+l=[]
+for i in range(6):
+    r=random.randrange(start,stop,step)
+    print(r)
+    s+=r
+    l.append(r)
+print("mean:",s/6)
+l=sorted(l)
+mid=len(l)//2
+print("median:",(l[mid-1]+l[mid])/2)
+max_count=0
+mode=0
+for i in l:
+    count=l.count(i)
+    if count>max_count:
+        max_count=count
+        mode=i
+    elif count==max_count:
+        mode=i
+print("mode:",mode)
