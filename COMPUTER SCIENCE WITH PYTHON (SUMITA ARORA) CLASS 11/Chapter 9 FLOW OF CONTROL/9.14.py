@@ -10,3 +10,5 @@ if N>20:
         elif i%7==0:
             print("Topsy",end="")
         print()
+else:
+    print("Invalid input")
