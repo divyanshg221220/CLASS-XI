@@ -15,7 +15,7 @@ while True:
             else:
                 s-=numerator/denominator
     elif choice==2:
-        n=int(input("Enter n:"))
+        n=int(input("Enter a number:"))
         for i in range(1,n+1,2):
             s+=i**2
     elif choice==3:
