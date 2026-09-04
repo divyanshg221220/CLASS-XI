@@ -1,6 +1,6 @@
 #9.19
-n=int(input("Enter a number:"))
-m=int(input("Enter a number:"))
+n=int(input("Enter first number:"))
+m=int(input("Enter second number:"))
 for i in range(1,n+1):
     if i%m==0:
         print(i,end=" ")
