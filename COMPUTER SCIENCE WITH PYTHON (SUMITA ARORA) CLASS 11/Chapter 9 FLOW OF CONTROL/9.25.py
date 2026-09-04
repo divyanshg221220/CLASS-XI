@@ -1,5 +1,4 @@
 #9.25
-#9.24
 while True:
     print("""1.
 A
