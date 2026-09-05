@@ -1,5 +1,5 @@
 #10.4
-s=input("Enter a string:")
+s=input("Enter a phone number:")
 if len(s)==12 and s[:3].isdigit() and s[4:7].isdigit() and s[8:].isdigit() and s[3]=="-" and s[7]=="-":
     print("Valid")
 else:
