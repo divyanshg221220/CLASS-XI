@@ -6,7 +6,7 @@ Precondition : the list will contain
 at least one element.''')
     print('''2. L is a list of numbers. Print a new list where each element is the
 corresponding element of list L summed with number num.''')
-    print("3. Exit")
+    print("3. EXIT")
     choice=int(input("USER'S CHOICE:"))
     if choice==1:
         str_list=eval(input("Enter a list of strings:"))
