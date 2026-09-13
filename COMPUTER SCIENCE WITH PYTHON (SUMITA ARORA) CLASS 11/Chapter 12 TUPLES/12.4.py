@@ -1,5 +1,4 @@
 #12.4
-from unicodedata import name
 n=int(input("Enter the number:"))
 t=tuple()
 for i in range(n):
