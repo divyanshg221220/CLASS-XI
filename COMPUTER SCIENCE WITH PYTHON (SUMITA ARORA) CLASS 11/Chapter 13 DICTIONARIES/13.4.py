@@ -28,7 +28,7 @@ while True:
         l=[]
         for team in d:
             wins,losses=d[team]
-            if wins>0:
+            if wins>losses:
                 l.append(team)
         print("Teams with winning records:",l)
     elif choice==4:
