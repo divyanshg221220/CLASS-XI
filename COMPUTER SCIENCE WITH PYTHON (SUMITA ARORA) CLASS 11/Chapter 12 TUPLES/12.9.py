@@ -11,5 +11,6 @@ while True:
         t=tuple(chr(97+i)*(i+1) for i in range(26))
         print(t)
     elif choice==3:
+        print("EXITED BY USER")
         break
     print()
