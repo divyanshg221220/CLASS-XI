@@ -4,7 +4,8 @@ for i in range(1,len(L)):
     key=L[i]
     lastname=key[0].split()[-1]
     j=i-1
-    while j>=0 and L[j][0].split()[-1]>key:
+    while j>=0 and L[j][0].split()[-1]>lastname:
         L[j+1]=L[j]
         j-=1
     L[j+1]=key
+print(L)
